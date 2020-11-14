@@ -1,0 +1,27 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:keplex_dust"
+    },
+    "4": {
+      "item": "kelaxfaction:keplex_dust"
+    },
+    "7": {
+      "item": "kelaxfaction:desh_plate"
+    },
+    "8": {
+      "item": "kelaxfaction:keplex_dust"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:smelter_part_1",
+    "count": 1
+  }
+}

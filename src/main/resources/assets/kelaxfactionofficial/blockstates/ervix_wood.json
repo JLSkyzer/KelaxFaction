@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "kelaxfaction:ervix_wood"
+    },
+    "facing=south": {
+      "model": "kelaxfaction:ervix_wood"
+    },
+    "facing=north": {
+      "model": "kelaxfaction:ervix_wood"
+    },
+    "facing=east": {
+      "model": "kelaxfaction:ervix_wood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "kelaxfaction:ervix_wood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "kelaxfaction:ervix_wood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "kelaxfaction:ervix_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

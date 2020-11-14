@@ -1,0 +1,27 @@
+{
+  "id_map": {},
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "workspaceSettings": {
+    "modid": "kelaxfactionofficial",
+    "modName": "KelaxFactionOfficial",
+    "version": "1.0.0",
+    "author": "JLStrykerz_2_0",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Crée par JLStrykerz_2_0",
+    "modElementsPackage": "fr.strykerz.kelaxfaction",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

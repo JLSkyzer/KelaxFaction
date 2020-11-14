@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "kelaxfaction:blocks/moon_plant",
+    "particle": "kelaxfaction:blocks/moon_plant"
+  }
+}

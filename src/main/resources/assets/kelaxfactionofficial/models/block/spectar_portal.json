@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/gris_1",
+    "up": "kelaxfaction:blocks/space_animated_texture",
+    "north": "kelaxfaction:blocks/astral_portal_texture_1",
+    "east": "kelaxfaction:blocks/astral_portal_texture_1",
+    "south": "kelaxfaction:blocks/astral_portal_texture_1",
+    "west": "kelaxfaction:blocks/astral_portal_texture_1",
+    "particle": "kelaxfaction:blocks/gris_1"
+  }
+}

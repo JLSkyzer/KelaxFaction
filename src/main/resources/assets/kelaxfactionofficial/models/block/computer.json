@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/gris_1",
+    "up": "kelaxfaction:blocks/gris_1",
+    "north": "kelaxfaction:blocks/computer_screen",
+    "east": "kelaxfaction:blocks/computer_face",
+    "south": "kelaxfaction:blocks/computer_face",
+    "west": "kelaxfaction:blocks/computer_face",
+    "particle": "kelaxfaction:blocks/gris_1"
+  }
+}

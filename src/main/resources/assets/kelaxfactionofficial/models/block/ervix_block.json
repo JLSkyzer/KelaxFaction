@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/ervix_block",
+    "up": "kelaxfaction:blocks/ervix_block",
+    "north": "kelaxfaction:blocks/ervix_block",
+    "east": "kelaxfaction:blocks/ervix_block",
+    "south": "kelaxfaction:blocks/ervix_block",
+    "west": "kelaxfaction:blocks/ervix_block",
+    "particle": "kelaxfaction:blocks/ervix_block"
+  }
+}

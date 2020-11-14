@@ -1,0 +1,16 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:ervix_block"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:ervix_ingot",
+    "count": 9
+  }
+}

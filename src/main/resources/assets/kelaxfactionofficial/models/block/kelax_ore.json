@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/kelax_ore",
+    "up": "kelaxfaction:blocks/kelax_ore",
+    "north": "kelaxfaction:blocks/kelax_ore",
+    "east": "kelaxfaction:blocks/kelax_ore",
+    "south": "kelaxfaction:blocks/kelax_ore",
+    "west": "kelaxfaction:blocks/kelax_ore",
+    "particle": "kelaxfaction:blocks/kelax_ore"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:kelax_ingot"
+    },
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "2": {
+      "item": "kelaxfaction:kelax_ingot"
+    },
+    "4": {
+      "item": "kelaxfaction:desh_plate"
+    },
+    "7": {
+      "item": "kelaxfaction:terplax_ingot"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:smelter_part_2",
+    "count": 1
+  }
+}

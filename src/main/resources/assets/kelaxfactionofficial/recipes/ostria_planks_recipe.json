@@ -1,0 +1,14 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "forgeostria_log"
+    }
+  ],
+  "result": {
+    "item": "kelaxfaction:ostria_planks",
+    "count": 4
+  }
+}

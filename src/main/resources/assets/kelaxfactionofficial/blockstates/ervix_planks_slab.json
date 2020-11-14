@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "kelaxfaction:ervix_planks_slab"
+    },
+    "half=top,variant=default": {
+      "model": "kelaxfaction:ervix_planks_slab_top"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/moon_snad",
+    "up": "kelaxfaction:blocks/moon_snad",
+    "north": "kelaxfaction:blocks/moon_snad",
+    "east": "kelaxfaction:blocks/moon_snad",
+    "south": "kelaxfaction:blocks/moon_snad",
+    "west": "kelaxfaction:blocks/moon_snad",
+    "particle": "kelaxfaction:blocks/moon_snad"
+  }
+}

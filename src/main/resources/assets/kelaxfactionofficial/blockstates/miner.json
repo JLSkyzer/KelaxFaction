@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "kelaxfaction:miner"
+    },
+    "facing=north": {
+      "model": "kelaxfaction:miner"
+    },
+    "facing=east": {
+      "model": "kelaxfaction:miner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kelaxfaction:miner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kelaxfaction:miner",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:ostria_planks"
+    },
+    "3": {
+      "item": "kelaxfaction:ostria_planks"
+    },
+    "4": {
+      "item": "kelaxfaction:ostria_planks"
+    },
+    "6": {
+      "item": "kelaxfaction:ostria_planks"
+    },
+    "7": {
+      "item": "kelaxfaction:ostria_planks"
+    },
+    "8": {
+      "item": "kelaxfaction:ostria_planks"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:ostria_stairs",
+    "count": 4
+  }
+}

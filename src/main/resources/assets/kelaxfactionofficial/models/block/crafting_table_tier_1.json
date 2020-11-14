@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/gris_1",
+    "up": "kelaxfaction:blocks/crafting_table_tier_1",
+    "north": "kelaxfaction:blocks/craftingtable_tier_1_face",
+    "east": "kelaxfaction:blocks/craftingtable_tier_1_face",
+    "south": "kelaxfaction:blocks/craftingtable_tier_1_face",
+    "west": "kelaxfaction:blocks/craftingtable_tier_1_face",
+    "particle": "kelaxfaction:blocks/gris_1"
+  }
+}

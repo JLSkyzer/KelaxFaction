@@ -1,0 +1,36 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:terplax_ingot"
+    },
+    "1": {
+      "item": "kelaxfaction:terplax_ingot"
+    },
+    "2": {
+      "item": "kelaxfaction:terplax_ingot"
+    },
+    "3": {
+      "item": "kelaxfaction:terplax_ingot"
+    },
+    "5": {
+      "item": "kelaxfaction:terplax_ingot"
+    },
+    "6": {
+      "item": "kelaxfaction:terplax_ingot"
+    },
+    "8": {
+      "item": "kelaxfaction:terplax_ingot"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:terplax_armorlegs",
+    "count": 1
+  }
+}

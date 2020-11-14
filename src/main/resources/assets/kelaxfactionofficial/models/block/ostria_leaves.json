@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/ostria_leaves",
+    "up": "kelaxfaction:blocks/ostria_leaves",
+    "north": "kelaxfaction:blocks/ostria_leaves",
+    "east": "kelaxfaction:blocks/ostria_leaves",
+    "south": "kelaxfaction:blocks/ostria_leaves",
+    "west": "kelaxfaction:blocks/ostria_leaves",
+    "particle": "kelaxfaction:blocks/ostria_leaves"
+  }
+}

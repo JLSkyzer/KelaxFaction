@@ -1,0 +1,32 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:ervix_planks"
+    },
+    "1": {
+      "item": "kelaxfaction:ervix_planks"
+    },
+    "2": {
+      "item": "kelaxfaction:ervix_planks"
+    },
+    "3": {
+      "item": "kelaxfaction:ervix_planks"
+    },
+    "4": {
+      "item": "kelaxfaction:ervix_planks"
+    },
+    "5": {
+      "item": "kelaxfaction:ervix_planks"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:ervix_planks_fence",
+    "count": 6
+  }
+}

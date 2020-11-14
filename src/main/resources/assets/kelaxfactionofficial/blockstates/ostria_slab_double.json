@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "kelaxfaction:ostria_slab_double"
+    }
+  }
+}

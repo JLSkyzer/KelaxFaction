@@ -1,0 +1,19 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:ervix_planks"
+    },
+    "1": {
+      "item": "kelaxfaction:ervix_planks"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:ervix_planks_trapdoor",
+    "count": 2
+  }
+}

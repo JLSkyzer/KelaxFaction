@@ -1,0 +1,16 @@
+{
+  "group": "kelaxfaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfaction:ostria_log"
+    }
+  },
+  "result": {
+    "item": "kelaxfaction:ostria_wood",
+    "count": 4
+  }
+}

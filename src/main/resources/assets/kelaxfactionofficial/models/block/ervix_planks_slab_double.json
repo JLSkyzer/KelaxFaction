@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kelaxfaction:blocks/ervix_planks",
+    "particle": "kelaxfaction:blocks/ervix_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfaction:blocks/ervix_leaves",
+    "up": "kelaxfaction:blocks/ervix_leaves",
+    "north": "kelaxfaction:blocks/ervix_leaves",
+    "east": "kelaxfaction:blocks/ervix_leaves",
+    "south": "kelaxfaction:blocks/ervix_leaves",
+    "west": "kelaxfaction:blocks/ervix_leaves",
+    "particle": "kelaxfaction:blocks/ervix_leaves"
+  }
+}
