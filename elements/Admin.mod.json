@@ -1,0 +1,8 @@
+{
+  "_fv": 10,
+  "_type": "command",
+  "definition": {
+    "commandName": "admin",
+    "permissionLevel": 4
+  }
+}
