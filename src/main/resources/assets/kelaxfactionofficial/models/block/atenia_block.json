@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfactionofficial:blocks/atenia_block",
+    "up": "kelaxfactionofficial:blocks/atenia_block",
+    "north": "kelaxfactionofficial:blocks/atenia_block",
+    "east": "kelaxfactionofficial:blocks/atenia_block",
+    "south": "kelaxfactionofficial:blocks/atenia_block",
+    "west": "kelaxfactionofficial:blocks/atenia_block",
+    "particle": "kelaxfactionofficial:blocks/atenia_block"
+  }
+}

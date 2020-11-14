@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "kelaxfaction:blocks/ervix_planks",
-    "top": "kelaxfaction:blocks/ervix_planks",
-    "side": "kelaxfaction:blocks/ervix_planks"
-  }
-}

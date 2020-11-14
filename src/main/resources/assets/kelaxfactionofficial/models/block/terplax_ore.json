@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kelaxfaction:blocks/terplax_ore",
-    "particle": "kelaxfaction:blocks/terplax_ore"
-  }
-}

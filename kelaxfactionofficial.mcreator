@@ -1,10 +1,151 @@
 {
-  "id_map": {},
-  "mod_elements": [],
+  "id_map": {
+    "ENTITY": 2
+  },
+  "mod_elements": [
+    {
+      "name": "AteniaOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atenia_ore"
+    },
+    {
+      "name": "BlockTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_tab"
+    },
+    {
+      "name": "AteniaIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atenia_ingot"
+    },
+    {
+      "name": "MiscTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "misc_tab"
+    },
+    {
+      "name": "Atenia",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atenia",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SmeltAteniaOre",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelt_atenia_ore"
+    },
+    {
+      "name": "CraftAteniaHelmet",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_atenia_helmet"
+    },
+    {
+      "name": "CraftAteniaChestPlate",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_atenia_chest_plate"
+    },
+    {
+      "name": "CraftAteniaLeggings",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_atenia_leggings"
+    },
+    {
+      "name": "CraftAteniaBoots",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_atenia_boots"
+    },
+    {
+      "name": "ArmorTab",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armor_tab"
+    },
+    {
+      "name": "Mob",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "mob"
+    },
+    {
+      "name": "AteniaBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atenia_block"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.atenialegs.name": "Atenia Leggings",
+      "entity.mob.name": "Mob",
+      "item.ateniahelmet.name": "Atenia Helmet",
+      "tile.atenia_block.name": "Atenia Block",
+      "item.atenia_ingot.name": "Atenia Ingot",
+      "tile.atenia_ore.name": "Atenia Ore",
+      "item.ateniabody.name": "Atenia Chestplate",
+      "itemGroup.tabblock_tab": "§4Atenia §f| §eBlocks",
+      "itemGroup.tabarmor_tab": "§4Atenia §f| §eArmor",
+      "itemGroup.tabmisc_tab": "§4Atenia §f| §eMisc",
+      "item.ateniaboots.name": "Atenia Boots"
+    }
   },
   "workspaceSettings": {
     "modid": "kelaxfactionofficial",

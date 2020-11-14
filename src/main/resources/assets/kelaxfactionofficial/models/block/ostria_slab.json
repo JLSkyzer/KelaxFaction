@@ -1,8 +1,0 @@
-{
-  "parent": "block/half_slab",
-  "textures": {
-    "bottom": "kelaxfaction:blocks/ostria_planks",
-    "top": "kelaxfaction:blocks/ostria_planks",
-    "side": "kelaxfaction:blocks/ostria_planks"
-  }
-}

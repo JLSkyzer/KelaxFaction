@@ -1,0 +1,11 @@
+item.atenialegs.name=Atenia Leggings
+entity.mob.name=Mob
+item.ateniahelmet.name=Atenia Helmet
+tile.atenia_block.name=Atenia Block
+item.atenia_ingot.name=Atenia Ingot
+tile.atenia_ore.name=Atenia Ore
+item.ateniabody.name=Atenia Chestplate
+itemGroup.tabblock_tab=§4Atenia §f| §eBlocks
+itemGroup.tabarmor_tab=§4Atenia §f| §eArmor
+itemGroup.tabmisc_tab=§4Atenia §f| §eMisc
+item.ateniaboots.name=Atenia Boots

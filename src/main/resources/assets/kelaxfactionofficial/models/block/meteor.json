@@ -1,8 +1,0 @@
-{
-  "parent": "kelaxfaction:custom/meteor",
-  "textures": {
-    "all": "kelaxfaction:blocks/meteor_texture",
-    "particle": "kelaxfaction:blocks/meteor_texture",
-    "0": "kelaxfaction:blocks/meteor_texture"
-  }
-}

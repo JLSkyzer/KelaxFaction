@@ -1,0 +1,39 @@
+{
+  "group": "kelaxfactionofficial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "2": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "3": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "4": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "5": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "6": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "7": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    },
+    "8": {
+      "item": "kelaxfactionofficial:atenia_ingot"
+    }
+  },
+  "result": {
+    "item": "kelaxfactionofficial:ateniabody",
+    "count": 1
+  }
+}
