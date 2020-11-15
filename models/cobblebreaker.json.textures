@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture1",
+        "1": "rtzet",
+        "2": "texture",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

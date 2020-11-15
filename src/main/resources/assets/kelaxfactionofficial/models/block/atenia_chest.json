@@ -1,0 +1,9 @@
+{
+  "parent": "kelaxfactionofficial:custom/chest",
+  "textures": {
+    "all": "kelaxfactionofficial:blocks/aladiumhest",
+    "particle": "kelaxfactionofficial:blocks/aladiumhest",
+    "0": "kelaxfactionofficial:blocks/aladiumhest",
+    "missing": "kelaxfactionofficial:blocks/"
+  }
+}

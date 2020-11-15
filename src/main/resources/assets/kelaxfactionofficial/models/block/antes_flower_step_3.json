@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "atenia:blocks/antes_flower_stad_3",
+    "particle": "atenia:blocks/antes_flower_stad_3"
+  }
+}

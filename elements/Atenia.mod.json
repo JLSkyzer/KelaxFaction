@@ -10,6 +10,9 @@
     "textureLeggings": "atenia_armor_leggings",
     "enableBoots": true,
     "textureBoots": "atenia_armor_boots",
+    "onBodyTick": {
+      "name": "AteniaBodyTickEvent"
+    },
     "creativeTab": {
       "value": "CUSTOM:ArmorTab"
     },

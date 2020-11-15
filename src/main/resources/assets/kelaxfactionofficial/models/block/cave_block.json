@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfactionofficial:blocks/animated_cave_block",
+    "up": "kelaxfactionofficial:blocks/animated_cave_block",
+    "north": "kelaxfactionofficial:blocks/animated_cave_block",
+    "east": "kelaxfactionofficial:blocks/animated_cave_block",
+    "south": "kelaxfactionofficial:blocks/animated_cave_block",
+    "west": "kelaxfactionofficial:blocks/animated_cave_block",
+    "particle": "kelaxfactionofficial:blocks/animated_cave_block"
+  }
+}

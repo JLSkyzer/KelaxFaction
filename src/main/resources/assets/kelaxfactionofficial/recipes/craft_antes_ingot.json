@@ -1,0 +1,42 @@
+{
+  "group": "kelaxfactionofficial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "1": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "2": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "3": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "4": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "5": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "6": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "7": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    },
+    "8": {
+      "item": "kelaxfactionofficial:antes_nugget"
+    }
+  },
+  "result": {
+    "item": "kelaxfactionofficial:antes_ingot",
+    "count": 1
+  }
+}

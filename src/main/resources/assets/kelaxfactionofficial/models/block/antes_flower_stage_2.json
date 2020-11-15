@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "kelaxfactionofficial:blocks/antes_flower_stad_2",
+    "particle": "kelaxfactionofficial:blocks/antes_flower_stad_2"
+  }
+}

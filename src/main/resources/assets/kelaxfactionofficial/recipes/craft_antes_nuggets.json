@@ -1,0 +1,16 @@
+{
+  "group": "atenia",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "atenia:antes_ingot"
+    }
+  },
+  "result": {
+    "item": "atenia:antes_nuggets",
+    "count": 9
+  }
+}

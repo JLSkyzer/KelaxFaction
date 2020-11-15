@@ -1,0 +1,33 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "athenia_sword_upgrade",
+    "customModelName": "Normal",
+    "name": "Atenia Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ToolTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 1800,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AteniaIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "AteniaUpgradeSwordLivingEntityIsHitWithTool"
+    }
+  }
+}
