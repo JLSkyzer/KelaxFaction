@@ -1,0 +1,29 @@
+{
+  "group": "kelaxfactionofficial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfactionofficial:antes_ingot"
+    },
+    "1": {
+      "item": "kelaxfactionofficial:antes_ingot"
+    },
+    "2": {
+      "item": "kelaxfactionofficial:antes_ingot"
+    },
+    "3": {
+      "item": "kelaxfactionofficial:antes_ingot"
+    },
+    "5": {
+      "item": "kelaxfactionofficial:antes_ingot"
+    }
+  },
+  "result": {
+    "item": "kelaxfactionofficial:antes_armorhelmet",
+    "count": 1
+  }
+}

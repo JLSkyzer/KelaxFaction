@@ -1,0 +1,16 @@
+{
+  "group": "kelaxfactionofficial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfactionofficial:atenia_block"
+    }
+  },
+  "result": {
+    "item": "kelaxfactionofficial:atenia_ingot",
+    "count": 9
+  }
+}

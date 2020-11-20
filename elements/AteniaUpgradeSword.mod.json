@@ -1,11 +1,11 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "athenia_sword_upgrade",
     "customModelName": "Normal",
-    "name": "Atenia Sword",
+    "name": "strykerzLeBg",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolTab"

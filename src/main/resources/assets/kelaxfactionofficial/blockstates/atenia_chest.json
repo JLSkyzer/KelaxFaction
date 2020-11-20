@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "kelaxfactionofficial:atenia_chest"
+    },
+    "facing=north": {
+      "model": "kelaxfactionofficial:atenia_chest"
+    },
+    "facing=east": {
+      "model": "kelaxfactionofficial:atenia_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kelaxfactionofficial:atenia_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kelaxfactionofficial:atenia_chest",
+      "y": 270
     }
   }
 }

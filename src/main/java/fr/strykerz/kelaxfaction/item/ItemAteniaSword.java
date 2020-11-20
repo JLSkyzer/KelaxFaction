@@ -8,17 +8,21 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
+import java.util.Map;
 import java.util.HashMap;
 
+import fr.strykerz.kelaxfaction.procedure.ProcedureAteniaSwordToolInInventoryTick;
 import fr.strykerz.kelaxfaction.creativetab.TabToolTab;
 import fr.strykerz.kelaxfaction.ElementsKelaxfactionofficialMod;
 
@@ -51,6 +55,20 @@ public class ItemAteniaSword extends ElementsKelaxfactionofficialMod.ModElement 
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("sword", 4);
 				return ret.keySet();
+			}
+
+			@Override
+			public void onUpdate(ItemStack itemstack, World world, Entity entity, int slot, boolean par5) {
+				super.onUpdate(itemstack, world, entity, slot, par5);
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("itemstack", itemstack);
+					ProcedureAteniaSwordToolInInventoryTick.executeProcedure($_dependencies);
+				}
 			}
 		}.setUnlocalizedName("atenia_sword").setRegistryName("atenia_sword").setCreativeTab(TabToolTab.tab));
 	}

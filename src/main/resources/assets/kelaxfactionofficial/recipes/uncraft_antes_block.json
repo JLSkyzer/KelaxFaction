@@ -1,0 +1,16 @@
+{
+  "group": "kelaxfactionofficial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kelaxfactionofficial:antes_block"
+    }
+  },
+  "result": {
+    "item": "kelaxfactionofficial:antes_ingot",
+    "count": 9
+  }
+}

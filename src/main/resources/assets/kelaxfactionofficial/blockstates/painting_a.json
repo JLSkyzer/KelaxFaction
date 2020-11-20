@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "kelaxfactionofficial:painting_a"
+    },
+    "facing=north": {
+      "model": "kelaxfactionofficial:painting_a"
+    },
+    "facing=east": {
+      "model": "kelaxfactionofficial:painting_a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kelaxfactionofficial:painting_a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kelaxfactionofficial:painting_a",
+      "y": 270
+    }
+  }
+}

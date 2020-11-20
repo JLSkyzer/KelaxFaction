@@ -1,0 +1,8 @@
+{
+  "parent": "kelaxfactionofficial:custom/slim_padroube",
+  "textures": {
+    "all": "kelaxfactionofficial:blocks/gundetails",
+    "particle": "kelaxfactionofficial:blocks/gundetails",
+    "missing": "kelaxfactionofficial:blocks/gundetails"
+  }
+}

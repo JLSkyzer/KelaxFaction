@@ -1,0 +1,9 @@
+{
+  "parent": "kelaxfactionofficial:custom/paintinga",
+  "textures": {
+    "all": "kelaxfactionofficial:blocks/a_32x32",
+    "particle": "kelaxfactionofficial:blocks/a_32x32",
+    "0": "kelaxfactionofficial:blocks/a_32x32",
+    "1": "kelaxfactionofficial:blocks/bois"
+  }
+}

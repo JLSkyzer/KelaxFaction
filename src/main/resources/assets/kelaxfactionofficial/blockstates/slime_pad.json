@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "kelaxfactionofficial:slime_pad"
+    },
+    "facing=north": {
+      "model": "kelaxfactionofficial:slime_pad"
+    },
+    "facing=east": {
+      "model": "kelaxfactionofficial:slime_pad",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kelaxfactionofficial:slime_pad",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kelaxfactionofficial:slime_pad",
+      "y": 270
+    }
+  }
+}

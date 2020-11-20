@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "atenia_logo_32x32",
+        "1": "bois"
+      },
+      "name": "default"
+    }
+  }
+}

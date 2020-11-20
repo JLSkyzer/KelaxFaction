@@ -45,6 +45,8 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
+import fr.strykerz.kelaxfaction.gui.GuiAteniaChestGui;
+
 public class ElementsKelaxfactionofficialMod implements IFuelHandler, IWorldGenerator {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
@@ -125,11 +127,15 @@ public class ElementsKelaxfactionofficialMod implements IFuelHandler, IWorldGene
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiAteniaChestGui.GUIID)
+				return new GuiAteniaChestGui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiAteniaChestGui.GUIID)
+				return new GuiAteniaChestGui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

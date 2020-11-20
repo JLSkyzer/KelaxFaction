@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      },
+      {
+        "value": "CUSTOM:AntesIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AntesArmor.body"
+    },
+    "name": "craft_antes_chestplate",
+    "namespace": "mod"
+  }
+}

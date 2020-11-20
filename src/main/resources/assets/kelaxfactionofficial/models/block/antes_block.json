@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kelaxfactionofficial:blocks/antes_block",
+    "up": "kelaxfactionofficial:blocks/antes_block",
+    "north": "kelaxfactionofficial:blocks/antes_block",
+    "east": "kelaxfactionofficial:blocks/antes_block",
+    "south": "kelaxfactionofficial:blocks/antes_block",
+    "west": "kelaxfactionofficial:blocks/antes_block",
+    "particle": "kelaxfactionofficial:blocks/antes_block"
+  }
+}

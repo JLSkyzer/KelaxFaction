@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 2,
-    "ENTITY": 2
+    "ENTITY": 3,
+    "GUI": 4
   },
   "mod_elements": [
     {
@@ -533,15 +533,6 @@
       "registry_name": "craft_cave_block"
     },
     {
-      "name": "AteniaChest",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "atenia_chest"
-    },
-    {
       "name": "AteniaUpgradeSword",
       "type": "tool",
       "sortid": 43,
@@ -583,29 +574,295 @@
           }
         ]
       }
+    },
+    {
+      "name": "AteniaSwordToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atenia_sword_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntesArmor",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antes_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AntesArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antes_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftAntesHelmet",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_antes_helmet"
+    },
+    {
+      "name": "CraftAntesChestplate",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_antes_chestplate"
+    },
+    {
+      "name": "CraftAntesLeggings",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_antes_leggings"
+    },
+    {
+      "name": "CraftAntesBoots",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_antes_boots"
+    },
+    {
+      "name": "CraftAteniaBlock",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_atenia_block"
+    },
+    {
+      "name": "PaintingA",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "painting_a"
+    },
+    {
+      "name": "PaintingIle",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "painting_ile"
+    },
+    {
+      "name": "AteniaChestGui",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      },
+      "registry_name": "atenia_chest_gui"
+    },
+    {
+      "name": "AteniaChest",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atenia_chest"
+    },
+    {
+      "name": "PaintingTab",
+      "type": "tab",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "painting_tab"
+    },
+    {
+      "name": "AntesBlock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antes_block"
+    },
+    {
+      "name": "UncraftAteniaBlock",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncraft_atenia_block"
+    },
+    {
+      "name": "CraftAntesBlock",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_antes_block"
+    },
+    {
+      "name": "UncraftAntesBlock",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncraft_antes_block"
+    },
+    {
+      "name": "AntesBullet",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antes_bullet"
+    },
+    {
+      "name": "PillageGunBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pillage_gun_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PillageGun",
+      "type": "gun",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      },
+      "registry_name": "pillage_gun"
+    },
+    {
+      "name": "SlimePad",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_pad"
+    },
+    {
+      "name": "SlimePadEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_pad_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "tile.painting_ile.name": "Painting Ile",
       "itemGroup.tabtool_tab": "§4Atenia §f| §eTools",
       "entity.mob.name": "Mob",
       "item.atenia_ingot.name": "Atenia Ingot",
       "tile.antes_flower_stage_2.name": "Antes Flower Stage 1",
+      "tile.slime_pad.name": "Slime Pad",
       "tile.cave_block.name": "Cave Block",
+      "itemGroup.tabpainting_tab": "§4Atenia §f| §ePainting",
       "item.antes_ingot.name": "Antes Ingot",
+      "item.antes_armorboots.name": "Antes Armor Boots",
       "item.ateniahelmet.name": "Atenia Helmet",
+      "tile.painting_a.name": "Painting A",
       "tile.antes_flower_stage_3.name": "Antes Flower Stage 1",
       "itemGroup.tabmisc_tab": "§4Atenia §f| §eMisc",
       "item.antes_nugget.name": "Antes Nugget",
       "item.atenialegs.name": "Atenia Leggings",
       "item.atenia_hammer.name": "Atenia Hammer",
       "item.atenia_nuggets.name": "Atenia Nuggets",
+      "item.antes_armorbody.name": "Antes Armor Body",
+      "item.pillage_gun.name": "Pillage Gun",
       "tile.atenia_ore.name": "Atenia Ore",
-      "item.atenia_upgrade_sword.name": "Atenia Sword",
+      "item.atenia_upgrade_sword.name": "strykerzLeBg",
+      "item.antes_armorlegs.name": "Antes Armor Leggings",
+      "item.antes_armorhelmet.name": "Antes Armor Helmet",
       "tile.atenia_chest.name": "Atenia Chest",
       "item.ateniaboots.name": "Atenia Boots",
+      "item.antes_bullet.name": "Antes Bullet",
       "tile.atenia_block.name": "Atenia Block",
       "tile.antes_flower_stage_4.name": "Antes Flower Stage 1",
       "tile.antes_flower_stage_1.name": "Antes Flower Stage 1",
@@ -614,7 +871,8 @@
       "tile.antes_plant_stage_5.name": "Antes Flower Stage 1",
       "item.antes_seed.name": "Antes Seed",
       "itemGroup.tabblock_tab": "§4Atenia §f| §eBlocks",
-      "itemGroup.tabarmor_tab": "§4Atenia §f| §eArmor"
+      "itemGroup.tabarmor_tab": "§4Atenia §f| §eArmor",
+      "tile.antes_block.name": "Antes Block"
     }
   },
   "workspaceSettings": {
@@ -634,5 +892,5 @@
     "modElementsPackage": "fr.strykerz.kelaxfaction",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202000547418
 }

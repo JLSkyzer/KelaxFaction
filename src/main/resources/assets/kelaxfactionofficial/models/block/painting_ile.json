@@ -1,0 +1,9 @@
+{
+  "parent": "kelaxfactionofficial:custom/logoile",
+  "textures": {
+    "all": "kelaxfactionofficial:blocks/atenia_logo_32x32",
+    "particle": "kelaxfactionofficial:blocks/atenia_logo_32x32",
+    "0": "kelaxfactionofficial:blocks/atenia_logo_32x32",
+    "1": "kelaxfactionofficial:blocks/bois"
+  }
+}
